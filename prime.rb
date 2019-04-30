@@ -1,11 +1,8 @@
 # Add  code here!
 def prime?(number)
-  x = number > 0
-  if number == 2
-    "true"
-  elsif number > 2 && number % 2 == 0 
-    "false"
-   else 
-    "false"
-end
+  (2..(number - 1)).each do |n|
+    return false if number % n == 0
+  end
+  true
+
 end
