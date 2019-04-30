@@ -2,7 +2,7 @@
 def prime?(num)
   if num == 2
     true
-  elsif num > 1 && n % x != 0
+  elsif num > 1 && num % x != 0
     true
  else
   false
